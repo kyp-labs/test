@@ -11,11 +11,13 @@ sudo: false
 
 install:
  - pip install pyflakes pycodestyle
+ - pip install -U pytest
 
 script:
  # Static analysis
  - pyflakes .
  - pycodestyle --statistics --count .
+ - pytest
 
 matrix:
   fast_finish: true
