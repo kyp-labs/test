@@ -3,5 +3,4 @@ def plus_one(num):
 
 
 def test_plus_one():
-    # Make an error at unnitest phase
-    assert plus_one(3) == 3
+    assert plus_one(3) == 4
