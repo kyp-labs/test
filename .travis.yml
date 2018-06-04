@@ -11,6 +11,7 @@ sudo: false
 install:
     # flake8: static analysis and style checks against PEP8 
     - pip install -U flake8
+    # pytest: unittest
     - pip install -U pytest
 
 before_script:
@@ -18,7 +19,5 @@ before_script:
     - flake8 .
 
 script:
-   #- pytest
-
-matrix:
-   fast_finish: true
+    # Unittest
+    - pytest
