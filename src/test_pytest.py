@@ -16,4 +16,4 @@ def test_plus_one():
     DOc
     '''
     # Make an error at unnitest phase
-    assert plus_one(3) == 3
+    assert plus_one(2) == 3
