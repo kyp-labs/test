@@ -2,11 +2,14 @@
 Doc
 """
 
+
 def plus_one(num):
     """
     Doc
     """
     return num + 1
+
+
 # Make a warning at static analysis phase
 def test_plus_one():
     '''
